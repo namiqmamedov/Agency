@@ -62,68 +62,85 @@ a{
     text-align: center;
 }
 
-.Services{       
-    height: 100vh;
+.services{
+	background-color: #FFFFFF;
+	width: 100%;
+	float: left;
+	padding:100px 0;
 }
-.Services .Text1{
-    width: 25%;
-    padding: 0 12px;
-    margin: 0;   
+
+.container{
+	max-width: 1170px;
+	margin: auto;
+}
+.services .heading{
+	margin-bottom: 60px;
+	width: 100%;
+	float: left;
+}
+.services .heading h1{
+  text-align: center;
+  font-size: 40px;
+  color:#000000;
+  margin-bottom: 10px;
+}
+.services .heading p{
+    text-align: center;
+    font-style: italic;
+    font-size: 16px;
+    color: #6c757d
+}
+
+
+.services .content{
+	float: left;
+	width: 100%;
+}
+.services .content .box{
+	width: 33.33%;
+    font-size: 50px;
+	float: left;
+	padding:15px;
+}
+.services .content .box .inner{
+	padding:30px;
+	text-align: center;	
+}
+
+
+.services .content .box .inner .icon{
+	
+	color:#000;
+	transition: color .8s ease;
+}
+.services .content .box:hover .inner .icon{
+	color:red;
+}
+.services .content .box .inner h4{
+	font-size: 24px;
+	font-weight: bold;
+	color:#000;
+	margin:20px 0;
+}
+
+.services .content .box .inner p{
+	font-size:16px;
+	color:#444444;
     float: left;
-    
-}
-
-
-.Services h2{
-    text-align: center;
-    padding-top: 15px;    
-    font-size: 40px;
-    color: #212529;
-}
-
-.Services h3{
-    text-align: center;
-    font-size: 16px;
-    color: #6C757D;
-    margin-bottom: 7rem;
-}
-
-.Services .Text1 h4{
-    padding-left: 6rem;
-    margin-bottom: 15px;
-    font-size: 24px;    
-}
-
-.Services .Text1 p{
-    width: 27%;
-    font-size: 16px;
-    line-height: 1.5rem;
-    color: #6C757D;            
-}
-
-.Services .Text2 h4{
-    float: center;
-    padding-left: 32rem;    
-    margin-bottom: 2rem;
-}
-
-.Services .Text2 p{   
-    padding-left: 22rem;  
-    width: 27%; 
-    color: #6C757D;   
-    font-size: 16px;
+	line-height:24px;
 }
 
 
 .Portfolio{
     background-color: #F8F9FA;
     padding: 8rem 0;
+    margin-top: 56px;
     font-family: sans-serif;
-    text-align: center;
-    overflow: auto;      
+    text-align: center;   
 }
 
 .Portfolio h2{
+	padding-top: 32%;
     font-size: 40px;
     color: #212529;      
 }
@@ -135,7 +152,7 @@ a{
 }
 
 .boxes .box{
-    width: 31%;   
+    width: 29%;   
     padding: 10px;
     margin: 0 1% 30px;
     padding-left: 2.9rem;
@@ -162,7 +179,11 @@ a{
     color: #6C757D;
     font-size: 16px;
 }
+i{
+	background-color: #FFC800;
+	color: white;
+	border-radius: 100%;
+	padding: 35px;
 
-
-
+}
 
